@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Weather",
+	"description": "It will give the weather condition of any city",
+	"author": "Faizan",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "cityWeatherInfo",
+		"default_popup": "weather.html"
+	},
+	"chrome_url_overrides": {
+		"newtab": "weather.html"
+	},
+	"permissions": ["activeTab"]
+
+}
